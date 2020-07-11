@@ -1,0 +1,5 @@
+services:
+  newsletter_subscription.subscriber_manager:
+    class: Drupal\newsletter_subscription\NewsletterSubscriberManager
+    tags:
+      - { name: service_collector, tag: newsletter_subscriber, call: addSubscriber }

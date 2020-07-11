@@ -1,0 +1,6 @@
+newsletter_subscription.optin:
+  path: '/newsletter-optin/{token}'
+  defaults:
+    _controller: Drupal\newsletter_subscription\Controller\NewsletterController::handleOptIn
+  requirements:
+    _permission: 'access content'

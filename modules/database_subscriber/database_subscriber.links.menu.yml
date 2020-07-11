@@ -1,0 +1,5 @@
+entity.database_subscription.collection:
+  title: Database subscriptions
+  description: 'List of newsletter subscriptions in the DB.'
+  route_name: entity.database_subscription.collection
+  parent: system.admin_structure

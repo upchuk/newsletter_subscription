@@ -1,0 +1,8 @@
+{
+  "name": "drupal/newsletter_subscription",
+  "description": "Base module for integrating with newsletter contact subscriptions.",
+  "type": "drupal-module",
+  "require": {
+    "php": ">=7.1"
+  }
+}

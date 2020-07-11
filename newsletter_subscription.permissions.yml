@@ -1,0 +1,19 @@
+add subscription opt in entities:
+  title: 'Create new Subscription opt in entities'
+
+administer subscription opt in entities:
+  title: 'Administer Subscription opt in entities'
+  description: 'Allow to access the administration form to configure Subscription opt in entities.'
+  restrict access: true
+
+delete subscription opt in entities:
+  title: 'Delete Subscription opt in entities'
+
+edit subscription opt in entities:
+  title: 'Edit Subscription opt in entities'
+
+view published subscription opt in entities:
+  title: 'View published Subscription opt in entities'
+
+view unpublished subscription opt in entities:
+  title: 'View unpublished Subscription opt in entities'

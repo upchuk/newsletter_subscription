@@ -1,0 +1,6 @@
+services:
+  database_subscriber.subscriber:
+    class: Drupal\database_subscriber\DatabaseSubscriber
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: newsletter_subscriber, priority: -10 }

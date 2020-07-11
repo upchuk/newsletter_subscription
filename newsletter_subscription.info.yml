@@ -1,0 +1,4 @@
+name: Newsletter Subscription
+description: Handles the newsletter subscriptions base functionality
+core_version_requirement: ^8.7.7 || ^9
+type: module

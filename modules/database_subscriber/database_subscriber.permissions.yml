@@ -1,0 +1,10 @@
+access database subscription overview:
+  title: 'access database subscription overview page'
+delete database subscriber:
+  title: Delete database subscriber
+create database subscriber:
+  title: Create database subscriber
+view database subscriber:
+  title: View database subscriber
+edit database subscriber:
+  title: Edit database subscriber
