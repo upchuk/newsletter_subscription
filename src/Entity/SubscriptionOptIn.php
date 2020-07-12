@@ -49,8 +49,7 @@ use Drupal\user\UserInterface;
  *     "edit-form" = "/admin/structure/subscription_opt_in/{subscription_opt_in}/edit",
  *     "delete-form" = "/admin/structure/subscription_opt_in/{subscription_opt_in}/delete",
  *     "collection" = "/admin/structure/subscription_opt_in",
- *   },
- *   field_ui_base_route = "subscription_opt_in.settings"
+ *   }
  * )
  */
 class SubscriptionOptIn extends ContentEntityBase implements SubscriptionOptInInterface {
